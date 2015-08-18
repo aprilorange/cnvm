@@ -1,0 +1,26 @@
+{
+  "name": "cnvm",
+  "version": "0.0.0",
+  "description": "node.js command line module scaffold",
+  "main": "bin/exec",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "cnvm": "./bin/cnvm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilorange/cnvm.git"
+  },
+  "author": "April Orange <aprilorange.net@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aprilorange/cnvm/issues"
+  },
+  "homepage": "https://github.com/aprilorange/cnvm#readme",
+  "dependencies": {
+    "commander": "^2.8.1"
+  }
+}
