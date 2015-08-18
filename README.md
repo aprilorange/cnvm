@@ -23,8 +23,11 @@ cnvm ls all
 cnvm install <VERSION>
 # Uninstall a specific version of Node, the current using version cannot be removed
 cnvm uninstall <VERSION>
-# Use a specific version of Node and set it as default, if the version does not exist then install it first
+# Use a specific version of Node and set it as default
+# If the version does not exist then install it first
 cnvm use <VERSION>
+# Change source
+cnvm source taobao||official
 ```
 
 ## License
