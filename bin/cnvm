@@ -1,9 +1,14 @@
 #!/usr/bin/env node
 
 var program = require('commander')
+var action = require('../lib/action')
 
 program
   .version(require('../package').version)
+
+program
+  .command('init')
+  .action(action.init)
   
 program
   .parse(process.argv)

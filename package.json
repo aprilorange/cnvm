@@ -4,7 +4,8 @@
   "description": "node.js command line module scaffold",
   "main": "bin/exec",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cnvm init"
   },
   "preferGlobal": true,
   "bin": {

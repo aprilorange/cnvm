@@ -2,6 +2,8 @@
 
 a placeholder for cnvm, a.k.a. node version manager using source from npm.taobao.org
 
+## For now you can use [my fork](https://github.com/aprilorange/n) of tj/n to achieve this.
+
 ## The source
 
 This aims at Node users in China. However, the source is configurable. It's set to be using taobao's source by default, you can change it to suit your use.
